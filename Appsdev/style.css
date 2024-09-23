@@ -1,0 +1,48 @@
+body{
+    background-color: #04C36A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-container{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;    /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin: 30px;
+}
+.submit{
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    width: 500px;
+    padding: 12px 24px; 
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+  }
+input[type=text]{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #141414;
+  }
+#description-select{
+    width: 350px;
+    height: 30px;
+}  
+.img1{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
